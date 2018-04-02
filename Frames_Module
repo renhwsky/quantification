@@ -9,6 +9,9 @@
 
 2. 什么是python的request模块？
 
+6. 什么是csv模块？
+   csv（comma Separated Values）为python内置子模块，它用于处理cvs这种广泛使用的格式，比如电子表格。
+
 7. 什么是Numpy模块？
    Numpy是Python中扩展数据运算的库，它集成了大量高价的维度运算和矩阵运算，此外也针对数组运算提供了大量的数学函数式运算。 
    https://github.com/numpy/numpy
