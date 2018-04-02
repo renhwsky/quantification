@@ -6,8 +6,27 @@
 （５）数据存储至no-sql数据库：mongodb（高效轻量级并且支持并发）
 （６）使用python的进程池模块提高抓取速度
 （７）使用csv,pandas,matplotlib模块进行数据处理
+ 参考: https://www.2cto.com/kf/201605/506401.html
 
 2. 什么是python的request模块？
+   虽然Python标准库中提供了urllib模块，但不够完善实用。基于Apache2许可开发的request的http库则很好的提供了网络请求功能，它可以完成浏览器可有的
+   任何操作，最常见的是通过request获取网络中的URL信息
+   https://github.com/requests/requests
+   
+3. 什么是xpath模块？
+   xpath全称为XML Path Language，即XML路径语言，它是一门在XML文档中查找信息的语言，最初Xpath是用来搜索xml文件的，同样也适合搜索html文档，
+   在获取HTML信息后  ，通过xpath来抓取xml或者html中的具体信息。
+   https://www.w3.org/TR/xpath/
+
+4. 什么是redis库模块？
+   redis是使用ANSI C编写的开源、支持网络、基于内存、可选持久性的键值对存储数据库，是最流行的键值对存储数据库。
+   与python的结合使用参考：https://www.jianshu.com/p/2639549bedc8
+   https://github.com/antirez/redis
+   
+5. 什么是MongoDB数据库模块?
+   MongoDB 是一个高性能，开源，无模式的文档型数据库，开发语言是C++。它在许多场景下可用于替代传统的关系型数据库或键/值存储方式。
+   是一种nosql的关系型数据库？
+   https://github.com/mongodb/mongo
 
 6. 什么是csv模块？
    csv（comma Separated Values）为python内置子模块，它用于处理cvs这种广泛使用的格式，比如电子表格。
@@ -25,7 +44,15 @@
    向应用程序嵌入式绘图提供了应用程序接口（API）
    https://github.com/matplotlib/matplotlib
 
-
+10. 什么是bfs广度优先算法
+    python在抓取信息是使用广度优先来最大化获取信，算法如下：
+    广度优先算法：
+   （1）顶点v入队列。
+   （2）当队列非空时则继续执行，否则算法结束。
+   （3）出队列取得队头顶点v；访问顶点v并标记顶点v已被访问。
+   （4）查找顶点v的第一个邻接顶点col。
+   （5）若v的邻接顶点col未被访问过的，则col入队列。
+   （6）继续查找顶点v的另一个新的邻接顶点col，转到步骤（5）。直到顶点v的所有未被访问过的邻接点处理完。转到步骤（2）
 
 
 
